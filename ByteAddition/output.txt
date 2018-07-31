@@ -1,0 +1,50 @@
+ 11111111         Two's complement                  -1
++00000000         Biased Notation                 -128
+ --------                                          ----
+ underflow                                        -129
+
+ 00000011         Two's complement                   3
++10000111         Biased Notation                    7
+ --------                                          ----
+ 00001010         Two's Complement                  10
+
+ 00001111         Two's complement                  15
++10000111         Biased Notation                    7
+ --------                                          ----
+ 00010110         Two's Complement                  22
+
+ 10000000         Two's complement                -128
++11111111         Biased Notation                  127
+ --------                                          ----
+ 11111111         Two's Complement                  -1
+
+ 11110000         Two's complement                 -16
++10001000         Biased Notation                    8
+ --------                                          ----
+ 11111000         Two's Complement                  -8
+
+ 10000001         Two's complement                -127
++00000001         Biased Notation                 -127
+ --------                                          ----
+ underflow                                        -254
+
+ 01111111         Two's complement                 127
++00000000         Biased Notation                 -128
+ --------                                          ----
+ 11111111         Two's Complement                  -1
+
+ 01110101         Two's complement                 117
++11010001         Biased Notation                   81
+ --------                                          ----
+ overflow                                          198
+
+ 00000000         Two's complement                   0
++10000000         Biased Notation                    0
+ --------                                          ----
+ 00000000         Two's Complement                   0
+
+ 00001111         Two's complement                  15
++11110000         Biased Notation                  112
+ --------                                          ----
+ 01111111         Two's Complement                 127
+
